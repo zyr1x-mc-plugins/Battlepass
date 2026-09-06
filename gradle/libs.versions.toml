@@ -1,0 +1,39 @@
+[versions]
+paper-api = "1.21.8-R0.1-SNAPSHOT"
+placeholderapi = "2.12.3"
+kyori-minimessage = "5.2.0"
+guice = "7.0.0"
+hibernate = "7.1.7.Final"
+redisson = "3.45.0"
+kryo = "5.5.0"
+invui = "1.49"
+litecommands = "3.11.0"
+sponge = "4.2.0"
+mariadb = "3.5.9"
+duration-serializer = "2.0.2"
+worldedit = "7.3.16"
+worldguard = "7.0.14"
+leaf-api = "1.21.8-R0.1-SNAPSHOT"
+guava = "33.3.1-jre"
+gson = "2.11.0"
+
+[libraries]
+paper-api = { module = "io.papermc.paper:paper-api", version.ref = "paper-api" }
+placeholderapi = { module = "me.clip:placeholderapi", version.ref = "placeholderapi" }
+kyori-minimessage = { module = "net.kyori:adventure-text-minimessage", version.ref = "kyori-minimessage" }
+guice = { module = "com.google.inject:guice", version.ref = "guice" }
+hibernate-core = { module = "org.hibernate.orm:hibernate-core", version.ref = "hibernate" }
+hibernate-hikari = { module = "org.hibernate.orm:hibernate-hikaricp", version.ref = "hibernate" }
+redisson = { module = "org.redisson:redisson", version.ref = "redisson" }
+kryo = { module = "com.esotericsoftware:kryo", version.ref = "kryo" }
+invui = { module = "xyz.xenondevs.invui:invui", version.ref = "invui" }
+litecommands = { module = "dev.rollczi:litecommands-bukkit", version.ref = "litecommands" }
+sponge-yaml = { module = "org.spongepowered:configurate-yaml", version.ref = "sponge" }
+sponge-extra-kotlin = { module = "org.spongepowered:configurate-extra-kotlin", version.ref = "sponge" }
+mariadb = { module = "org.mariadb.jdbc:mariadb-java-client", version.ref = "mariadb" }
+duration-serializer = { module = "io.github.blackbaroness:duration-serializer", version.ref = "duration-serializer" }
+worldedit = { module = "com.sk89q.worldedit:worldedit-bukkit", version.ref = "worldedit" }
+worldguard = { module = "com.sk89q.worldguard:worldguard-bukkit", version.ref = "worldguard" }
+leaf-api = { module = "cn.dreeam.leaf:leaf-api", version.ref = "leaf-api" }
+guava = { module = "com.google.guava:guava", version.ref = "guava" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
